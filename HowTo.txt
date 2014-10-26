@@ -1,0 +1,31 @@
+* Require *
+
+Laptop with Asus AMI EFI firmware.
+Brain.
+Some time.
+
+Original WinFlash
+Original ROM
+Modified ROM
+
+* How to flash with custom ROM *
+
+1. Download the last revision of your BIOS at Asus website.
+2. Download AMIBCP 4.53
+3. Modify whatever you want then save as "Modified.REV", ex: (XF750J.208 to MODIFIED.208)
+4. Open notepad++ and write some char and let notepad open without saving.
+4. Run patched WinFlash and select the untouched BIOS data
+5. Clic exit
+6. When Windows say that notepad does not allow shutdown, clic on "abord".
+7. (Optionnal) If you have USBChargerPlus on your laptop, you should restart it (C:\Program Files x86\Asus\..)
+8. Run patched WinFlash again, this time select the modified BIOS data then clic Flash and exit.
+9. Your laptop should flash the custom ROM, if not, you'll have to wait.
+
+* !! NOTE !! *
+If WinFlash does not recognize your ROM DO NOT TRY TO FLASH YOUR LAPTOP ! Risk of brick.
+Don't do it unless you have a SPIFlasher in hand with backup..
+
+* Finally *
+
+Hope this will work for you guy !
+Enjoy it !
